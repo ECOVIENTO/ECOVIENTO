@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div{
+    width: 100%;
+    margin-top: 300px;
+}
+.div-1{
+    width: 400px;
+    margin-left: 38%;
+    flex-direction: column;
+    min-width: 250px;
+    display: flex;
+}
+.div-2{
+    text-align: center;
+    background: #1c898c;
+    width: 200px;
+    margin-left: 100px;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#usuario{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#contra{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 3000px){
+    body{
+        background-color:#5ce1e6;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1024px) {
+    .div{
+        padding: 20px;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1600px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -60px;
+    }
+}
+@media (max-width: 1400px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -80px;
+    }
+}
+@media (max-width: 1300px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -100px;
+    }
+}
+@media (max-width: 1200px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -90px;
+    }
+}
+@media (max-width: 1100px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -120px;
+    }
+}
+@media (max-width: 1000px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -140px;
+    }
+}
+@media (max-width: 800px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -120px;
+    }
+}
+@media (max-width: 600px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -160px;
+    }
+}
+@media (max-width: 400px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -180px;
+    }
+}
+@media (min-width: 2000px) {
+    .div{
+        padding: 10px;
+        flex-direction: column;
+        margin-left: -30px;
+    }
+}
+

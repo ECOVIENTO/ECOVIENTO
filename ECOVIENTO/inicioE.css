@@ -1,0 +1,811 @@
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background: #fff;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #757575;
+  text-align: left;
+  background-color: #fff;
+}
+
+
+h2{
+  font-size: 2rem;
+}
+  
+
+
+
+
+
+
+   
+
+.cho {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+
+  
+
+
+  
+  .cho2 {
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+  }
+
+
+
+
+
+
+  .img{
+    margin-top: 1.5rem ;
+     margin-left: 20px;
+     width: 300px;
+}
+
+
+
+
+
+
+.contenedor{
+    padding-top: 3rem 
+    
+}
+
+
+
+.texto{
+    text-align: center ;
+    color: white ;
+    width: 350px; margin-left: 20px;
+
+}
+
+
+.sub{
+    margin-left: -150px;
+}
+
+p{
+    margin-left: -170px;
+}
+
+header{
+    display: flex;
+    background: #fff;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    background: #fff;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav{
+    margin-left: 100px;
+}
+.titulo-logo{
+    
+    margin-top: 30px;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-dato{
+    font-weight: 800px;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    float: left;
+}
+nav a:hover{
+    color: aqua;
+}
+a h2:hover{
+    color: aqua;
+}
+.logo{
+    width: 100px;
+    padding: 5px;
+    
+    float: left;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: rgb(25, 207, 216);
+}
+*/
+a{
+    text-decoration: none;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #fff;
+    color: black;
+}
+.imglogo{
+    width: 120px;
+    padding-top: 5px;
+}
+.icon{
+    width: 50px;
+}
+.grupo-1{
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    color: black;
+}
+.caja2{
+    color: black;
+    width: 300px;
+    text-align: center;
+}
+.caja2-1{
+    color: black;
+    width: 300px;
+    text-align: center;
+}
+.caja3{
+    color: black;
+    text-align: center;
+}
+h2{
+    padding-bottom: 15px;
+}
+.p-1{
+   padding-bottom: 4px;
+   margin-left: -950px;
+}
+.no{
+    margin-top: 20px;
+}
+.icon1{
+    margin-right: 10px;
+}
+.grupo-2{
+    background-color: red;
+    text-align: center;
+}
+
+.boton{
+     margin-right: 110px;
+}
+
+
+.contenedor1{
+    align-items: center;
+    display: flex;
+    
+    margin-right: 100px;
+       
+}
+
+
+.unus1{
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+    display: flex;
+    padding-bottom: 10px;
+}
+.unus2{
+    flex: 0 0 41.66667%;
+    max-width: 41.66667%;
+    display: flex;
+    display: none;
+}
+.cho2{
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%;
+    margin-top: 1.5rem ;
+    
+}
+
+.menu-lateral {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    padding-top: 60px;
+    transition: right 0.3s ease;
+  }
+  
+  .menu-lateral ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-lateral ul li {
+    padding: 15px;
+  }
+  
+  .menu-lateral ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .boton-toggle-menu {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .cerrar-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #fff;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+
+
+.linea1{
+    width: 30px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s, opacity 0.3s;
+}
+.linea2{
+    width: 30px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s, opacity 0.3s;
+}
+.linea3{
+    width: 30px;
+    height: 3px;
+    background: black;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+
+/**/
+@media (max-width: 750px) {
+    .nav-dato{
+        display: none;
+    }
+   
+}
+@media (min-width: 751px) {
+    .boton-toggle-menu{
+        display: none;
+    }
+
+}
+
+@media (max-width: 2000px) {
+    .contenedor1{   
+        margin-left: 110px;
+        cursor: default;
+        
+    }
+}
+@media (max-width: 1920px) {
+    .contenedor1{   
+        margin-left: 120px;
+        cursor: default;
+        
+    }
+}
+@media (max-width: 1800px) {
+    .contenedor1{   
+        margin-left: 95px;
+        cursor: default;
+        
+    }
+}
+@media (max-width: 1700px) {
+    
+}
+@media (max-width: 1600px) {
+    .contenedor1{   
+        margin-left: 250px;
+        cursor: default;
+        
+    }
+}
+@media (max-width: 1500px) {
+    
+}
+@media (max-width: 1475px) {
+    .unus1{
+        display: none;
+    }
+    .unus2{
+        display: block;
+        float: left;
+        margin-left: 310px;
+    }
+    .texto{
+        margin-left: 70px;
+    }
+    .cho2{
+        text-align: center;
+    }
+    .contenedor1{
+        margin-left: 250px;
+    }
+}
+@media (max-width: 1450px) {
+    .unus2{
+        margin-left: 290px;
+    }
+}
+@media (max-width: 1400px) {
+    .logo{
+        width: 150px;
+    }
+    .unus2{
+        margin-left: 250px;
+    }
+    .contenedor1{
+        margin-left: 300px;
+    }
+    .texto{
+        margin-left: 30px;
+    }
+}
+@media (max-width: 1350px) {
+    .contenedor1{   
+        margin-left: 250px;
+        cursor: default;
+        
+    }
+}
+@media (max-width: 1300px) {
+    .contenedor1{   
+ 
+        margin-left: 250px;
+    }
+    .unus2{
+        margin-left: 210px;
+    }
+    .texto{
+        margin-left: 7px;
+    }
+}
+@media (max-width: 1250px) {
+    .contenedor1{ 
+        margin-left: 300px;
+    }
+    .unus2{
+        margin-left: 180px;
+    }
+    .texto{
+        margin-left: -5px;
+    }
+}
+@media (max-width: 1200px) {
+    .contenedor1{ 
+        margin-left: 270px;
+    }
+    .unus2{
+        margin-left: 170px;
+    }
+    .texto{
+        margin-left: -10px;
+    }
+}
+@media (max-width: 1150px) {
+    .contenedor1{ 
+        margin-left: 260px;
+    }
+    .unus2{
+        margin-left: 150px;
+    }
+    .texto{
+        margin-left: -15px;
+    }
+}
+@media (max-width: 1100px) {
+    .contenedor1{ 
+        margin-left: 260px;
+    }
+    .unus2{
+        margin-left: 130px;
+    }
+    .texto{
+        margin-left: -45px;
+    }
+}
+@media (max-width: 1050px) {
+    .contenedor1{ 
+        margin-left: 260px;
+    }
+    .unus2{
+        margin-left: 100px;
+    }
+    .texto{
+        margin-left: -65px;
+    }
+}
+@media (max-width: 1000px) {
+    .contenedor1{ 
+        margin-left: 260px;
+    }
+    .unus2{
+        margin-left: 80px;
+    }
+    .texto{
+        margin-left: -75px;
+    }
+}
+@media (max-width: 950px) {
+    .contenedor1{ 
+        margin-left: 260px;
+    }
+    .unus2{
+        margin-left: 55px;
+    }
+    .texto{
+        margin-left: -90px;
+    }
+}
+@media (max-width: 900px) {
+    .contenedor1{ 
+        margin-left: 260px;
+    }
+    .unus2{
+        margin-left: 30px;
+    }
+    .texto{
+        margin-left: -100px;
+    }
+}
+@media (max-width: 850px) {
+    .contenedor1{ 
+        margin-left: 260px;
+    }
+    .unus2{
+        margin-left: 10px;
+    }
+    .texto{
+        margin-left: -120px;
+    }
+}
+@media (max-width: 800px) {
+    .contenedor1{ 
+        margin-left: 260px;
+    }
+    .unus2{
+        margin-left: -25px;
+    }
+    .texto{
+        margin-left: -130px;
+    }
+}
+@media (max-width: 750px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+    }
+    .unus2{
+        margin-left: -40px;
+    }
+    .texto{
+        margin-left: -145px;
+    }
+}
+@media (max-width: 725px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+    }
+    .unus2{
+        margin-left: -60px;
+    }
+    .texto{
+        margin-left: -150px;
+    }
+}
+@media (max-width: 700px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+    }
+    .unus2{
+        margin-left: -70px;
+    }
+    .texto{
+        margin-left: -160px;
+    }
+}
+@media (max-width: 675px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+    }
+    .unus2{
+        margin-left: -90px;
+    }
+    .texto{
+        margin-left: -170px;
+    }
+}
+@media (max-width: 650px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -100px;
+    }
+    .texto{
+        margin-left: -175px;
+    }
+    
+    .caja3{
+        display: flex;
+        align-items: end;
+    }
+}
+@media (max-width: 625px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -110px;
+    }
+    .texto{
+        margin-left: -180px;
+    }
+}
+@media (max-width: 600px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -120px;
+    }
+    .texto{
+        margin-left: -190px;
+    }
+}
+@media (max-width: 575px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -135px;
+    }
+    .texto{
+        margin-left: -205px;
+    }
+    nav{
+        margin-left: 60px;
+    }
+}
+@media (max-width: 550px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -145px;
+    }
+    .texto{
+        margin-left: -210px;
+    }
+}
+@media (max-width: 525px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -155px;
+    }
+    .texto{
+        margin-left: -220px;
+    }
+}
+@media (max-width: 500px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -165px;
+    }
+    .texto{
+        margin-left: -220px;
+    }
+}
+@media (max-width: 475px) {
+    .contenedor1{ 
+        margin-left: 260px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -175px;
+    }
+    .texto{
+        margin-left: -225px;
+    }
+
+    nav{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 450px) {
+    .contenedor1{ 
+        margin-left: 235px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -175px;
+    }
+    .texto{
+        margin-left: -225px;
+    }
+}
+@media (max-width: 425px) {
+    .contenedor1{ 
+        margin-left: 217px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -175px;
+    }
+    .texto{
+        margin-left: -225px;
+    }
+}
+@media (max-width: 400px) {
+    .contenedor1{ 
+        margin-left: 208px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -175px;
+    }
+    .texto{
+        margin-left: -225px;
+    }
+    .siguenos{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .icon{
+        margin-bottom: 15px;
+        width: 30px;
+        margin-left: -70px;
+        
+    }
+    
+}
+@media (max-width: 375px) {
+    .contenedor1{ 
+        margin-left: 200px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -175px;
+    }
+    .texto{
+        margin-left: -225px;
+    }
+}
+@media (max-width: 350px) {
+    .contenedor1{ 
+        margin-left: 150px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -175px;
+    }
+    .texto{
+        margin-left: -225px;
+    }
+}
+@media (max-width: 335px) {
+    .contenedor1{ 
+        margin-left: 120px;
+        cursor: default;
+        
+    }
+    .unus2{
+        margin-left: -175px;
+    }
+    .texto{
+        margin-left: -225px;
+    }
+}
+

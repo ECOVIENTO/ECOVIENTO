@@ -1,0 +1,104 @@
+body{
+    background: linear-gradient(to right,#42dbf7,#44c6fa);
+    text-align: center;
+    color: black;
+}
+*{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    background: #fff;
+    min-height: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    margin-left: 100px;
+}
+.titulo-logo{
+    float: left;
+    margin-top: 10px;
+    font-size: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-dato{
+    font-weight: 800px;
+    padding: 15px;
+    font-size: 20px;
+}
+nav a:hover{
+    color: aqua;
+}
+a h2:hover{
+    color: aqua;
+}
+.logo{
+    width: 100px;
+    padding: 5px;
+    float: left;
+}
+p{
+    font-size: 30px;
+}
+img{
+    width: 30%;
+    display: flex;
+}
+.contenedor2{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;  
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #fff;
+    color: black;
+}
+.imglogo{
+    width: 130px;
+    padding-top: 5px;
+}
+.icon{
+    width: 50px;
+}
+.grupo-1{
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    color: black;
+}
+.caja2{
+    color: black;
+    width: 300px;
+}
+.caja2-1{
+    color: black;
+    width: 300px;
+}
+.caja3{
+    color: black;
+}
+h2{
+    padding-bottom: 15px;
+}
+.p-1{
+   padding-bottom: 4px;
+}
+.icon1{
+    margin-right: 10px;
+}
+.grupo-2{
+    background-color: red;
+    text-align: center;
+}

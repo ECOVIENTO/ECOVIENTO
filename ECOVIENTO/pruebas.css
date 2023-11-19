@@ -1,0 +1,27 @@
+.div1{
+    background-color: aqua;
+    margin-left: 200px;
+    margin-right: 1100px;
+    padding: 35px;
+    margin-top: 200px;
+    display: flex;
+
+}
+.div2{
+    display: flex;
+
+    background-color: aqua;
+    margin-left: 200px;
+    margin-right: 1100px;
+    padding: 35px;
+    margin-top: 200px;
+
+}
+.div3{
+    display: flex;
+
+}
+h1, h2{
+    margin-bottom: 300px;
+
+}

@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Poppins', sans-serif; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #19CFD8;
+}
+
+.carta1 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+}
+
+.carta1 .carta2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient(transparent 80%, #000), var(--i);
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+
+.carta1 .carta2 h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.carta1 .carta_info {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+
+.carta1:hover .carta_info {
+    left: 100%;
+}
+
+.carta_info .div1 {
+    padding: 5px 0;
+    border-bottom: solid 1px #bc8811;
+}
+
+.carta_info .div1 .titulo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8811;
+}
+
+.carta_info .div1 .descripcion {
+    display: flex;
+    gap: 10px;
+}
+
+.carta_info .div1 .descripcion .item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.carta_info .div1 .descripcion .item i {
+    color: #bc8811;
+    font-size: 15px;
+}
+
+.carta_info .div1 .descripcion .item p {
+    font-size: 13px;
+}
+
+.carta_info .contenido {
+    margin-top: 15px;
+}
+
+.carta_info .contenido .lista {
+    padding: 10px 15px;
+}
+
+.carta_info .contenido .lista li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.carta_info .action .btn {
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #bc8811;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+/**/
+
+.carta2-2 {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-left: 300px;
+}
+
+.carta2-2 .carta2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient(transparent 80%, #000), var(--i);
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+
+.carta2-2 .carta2 h6 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.carta2-2 .carta_info {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+
+.carta2-2:hover .carta_info {
+    left: -190%;
+}
+
+.carta2-2{
+    margin-top: 10px;
+}
+
+
+
+
+@media (max-width: 640px) {
+    .general{
+        
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+    .carta1{
+        margin-left: 100px;
+        margin-bottom: 380px;
+    }
+    .carta2-2{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+
+    .carta1 .carta_info {
+        position: absolute;
+        width: 90%;
+        height: 90%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        padding: 15px;
+        background: #fff;
+        z-index: 90;
+        box-shadow: 0 5px 10px #000;
+        transition: .5s;
+    }
+    
+    .carta1:hover .carta_info {
+        left: -0%;
+        top: 145%;
+    }
+
+
+    .carta2-2 .carta_info {
+        position: absolute;
+        width: 90%;
+        height: 90%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        margin: auto;
+        padding: 15px;
+        background: #fff;
+        z-index: 90;
+        box-shadow: 0 5px 10px #000;
+        transition: .5s;
+    }
+    .carta2-2:hover .carta_info {
+        right: -190%;
+        top: -190%;
+    }
+}
+
+@media only screen and (max-width: 613px) {
+    .carta2-2 {
+        margin-top: 20px; /* Add margin at the top of carta2-2 when it's below carta1 */
+    }
+}

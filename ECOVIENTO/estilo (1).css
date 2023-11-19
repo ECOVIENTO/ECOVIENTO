@@ -1,0 +1,137 @@
+*{
+    margin: 0 auto;
+    }
+    body{
+        background: linear-gradient(to right,#42dbf7,#44c6fa);
+        color: rgb(251, 251, 252);
+    }
+    header{
+    display: flex;
+    flex-direction: column;
+    background-color: #fcfaf9;
+    min-height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo{
+    align-items: center;
+    display: flex;
+    }
+    
+    .logo-img{
+    width: 100px;
+    margin-right: 20px;
+    }
+    
+    a{
+    text-decoration: none;
+    color: rgb(9, 198, 255);
+    }
+    
+    .nav-dato{
+    font-weight: 400;
+    padding: 2px;
+    }
+    
+    nav a:hover{
+    color: rgb(12, 12, 12);
+    }
+    
+    a h2:hover{
+    color: rgb(7, 7, 7);
+    }
+    
+@media(min-width:700px){
+    header{
+    flex-direction: row;
+    padding: 0px 30px;
+    justify-content: space-between;
+    }    
+    nav {
+        padding: 10px 0px;
+    }
+}
+.container{
+    width: 75%;
+    max-width: 500px;
+    min-width: 2600;
+    margin: auto;
+}
+
+img{
+width: 80%;
+display: flex;
+}
+html{
+    font-size: 25px;
+}
+.empresa{
+   max-width: 2000px;
+   width: 100%;
+   padding: 30px 0px;
+   margin: 0 auto;
+   margin-top: 100px;
+   color: black;
+}
+.title{
+    display: flex;
+    font-size: 2rem;
+    color: #fafbfc;
+}
+h3{
+ display: flex;
+}
+h4{
+display: flex
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+}
+.imglogo{
+    width: 250px;
+}
+.icon{
+    width: 50px;
+}
+.grupo-1{
+    width: 100%;
+    max-width: 1500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.caja2{
+    color: rgb(253, 254, 255);
+}
+.caja3{
+    color: rgb(253, 254, 255);
+}
+h2{
+    padding-bottom: 15px;
+}
+.p-1{
+   padding-bottom: 4px;
+}
+.icon1{
+    margin-right: 10px;
+}
+.grupo-2{
+    background-color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .grupo-1{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
